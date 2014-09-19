@@ -7,7 +7,7 @@
     "websocket":"*"
     },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node webrtc_signal_server.js"
   },
   "repository": {
     "type": "git",
