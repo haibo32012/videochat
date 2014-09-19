@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Application for video chat",
   "main": "webrtc_signal_server.js",
+  "dependencies": {
+    "websocket":"*"
+    },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
