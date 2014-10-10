@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<script type="text/javascript" src="whammy.js"></script>
+	<script type="text/javascript" src="socket.io/socket.io.js"></script>
+	<script type="text/javascript" src="video.js"></script>
+	<title>Capture Video</title>
+</head>
+<body>
+	<div id="information"></div>
+	<progress id="progress" style="visibility: hidden;"></progress><br/>
+	<input class="uiButton" id="startButton" value="Start" type="button" onclick="startCapture();"/>
+	<input class="uiButton" id="stopButton" value="Stop" type="button" onclick="stopCapture();" disabled="disabled" /><br />
+	<video width="320" height="240" id="campreview" autoplay="true"></video>
+	<video width="320" height="240" id="result" controls="true" loop></video>
+
+	<canvas id = 'imgCanvas' width='300' height='300'></canvas>
+	<script>
+
+	</script>
+</body>
+</html>
