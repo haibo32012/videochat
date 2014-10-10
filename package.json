@@ -1,26 +1,13 @@
 {
-  "name": "videochat",
-  "version": "1.0.0",
-  "description": "Application for video chat",
-  "main": "webrtc_signal_server.js",
+  "name": "socket.io-chat",
+  "version": "0.0.0",
+  "description": "A simple chat client using socket.io",
+  "main": "index.js",
+  "author": "Grant Timmerman",
+  "private": true,
+  "license": "BSD",
   "dependencies": {
-    "websocket":"*"
-    },
-  "scripts": {
-    "start": "node webrtc_signal_server.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/haibo32012/videochat.git"
-  },
-  "keywords": [
-    "video",
-    "chat"
-  ],
-  "author": "haibo",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/haibo32012/videochat/issues"
-  },
-  "homepage": "https://github.com/haibo32012/videochat"
+    "express": "3.4.8",
+    "socket.io":"latest"
+  }
 }
